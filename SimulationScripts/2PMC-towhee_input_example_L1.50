@@ -1,0 +1,105 @@
+ensemble
+'nvt'
+temperature
+0.8596
+nmolty
+1
+nmolectyp
+1000
+numboxes
+2
+stepstyle
+'cycles'
+nstep
+50000
+printfreq
+1000
+blocksize
+2000
+moviefreq
+200
+backupfreq
+1000
+runoutput
+'full'
+pdb_output_freq
+2000
+pressure_virial_freq
+100
+trmaxdispfreq
+100
+volmaxdispfreq
+100
+loutchempotdata
+.TRUE.
+linit
+.true.
+initboxtype
+'dimensions'
+initstyle
+'full cbmc'
+'full cbmc'
+initlattice
+'simple cubic'
+'simple cubic'
+initmol
+200
+800
+inix iniy iniz
+7 7 7
+10 10 10
+hmatrix
+15.874 0.00 0.00
+0.00 15.874 0.00
+0.00 0.00 15.874
+10.358 0.00 0.00
+0.00 10.358 0.00
+0.00 0.00 10.358
+pm2boxcbswap
+0.20d0
+	pm2cbswmt
+	1.0d0
+	pm2cbswpr
+	1.0d0
+pmtracm
+1.0d0
+          pmtcmt
+          1.0d0 
+          rmtrac
+          0.5d0 
+          tatrac
+          0.2d0
+cbmc_formulation
+'Martin and Siepmann 1999 + Martin and Thompson 2004'
+cbmc_setting_style
+'Martin and Thompson FPE 2004'
+ffnumber
+1
+ff_filename
+/home/tyoon/towhee-8.2.3/ForceFields/towhee_ff_SquareWell
+classical_potential
+'Square Well'       
+classical_mixrule
+'Lorentz-Berthelot'
+radial_pressure_delta
+1.0d-2
+electrostatic_form
+'none'
+input_style
+'basic connectivity map'
+nunit
+1
+nmaxcbmc
+1
+lpdbnames
+F
+forcefield
+'SquareWell'
+charge_assignment
+'manual'
+unit ntype qqatom
+1    'type_a' 0.0d0
+vibration
+0
+improper torsion
+0
